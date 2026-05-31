@@ -1,11 +1,11 @@
 {
-  "name": "godaddy-mcp",
+  "name": "@thiagodinnes/godaddy-mcp",
   "version": "0.1.0",
   "description": "MCP server for GoDaddy API (Domains + DNS).",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thiagoorodrigues/godaddy-mcp.git"
+    "url": "git+https://github.com/thiagoorodrigues/godaddy-mcp.git"
   },
   "type": "module",
   "bin": {
