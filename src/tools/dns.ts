@@ -6,7 +6,7 @@ import { successResponse, genericErrorResponse } from "../errors.js";
 const DnsRecordSchema = z.object({
   data: z.string().min(1),
   name: z.string().min(1),
-  ttl: z.number().int().positive().optional(),
+  ttl: z.number().int().positive().default(3600),
   priority: z.number().int().nonnegative().optional(),
   port: z.number().int().positive().optional(),
   protocol: z.string().optional(),
